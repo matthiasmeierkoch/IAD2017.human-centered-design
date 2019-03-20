@@ -1,24 +1,24 @@
 
 
-full-image {
+.full-image {
 	width: 100%;
 	height: auto;
 	padding: 0;
 }
 
-half-image {
+.half-image {
 	width: 50%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-quarter-image {
+.quarter-image {
 	width: 25%;
 	height: auto;	
 }
 
-caption {
+.caption {
 	font-family: 'Barlow', sans-serif;
 	font-size: 0.7rem;
 	line-height: 0.4rem;
