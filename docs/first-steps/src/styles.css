@@ -20,3 +20,25 @@
 	color: white;
 	padding: 10px;
 }
+
+
+.gains {
+	position: relative;
+	background-color: white;
+	padding: 10px;
+	border-radius: ;
+}
+
+.pains {
+	position: relative;
+	background-color: white;
+	padding: 10px;
+	border-radius: ;
+}
+
+.jobs {
+	position: relative;
+	background-color: #496EAB;
+	padding: 10px;
+	border-radius: ;
+}
