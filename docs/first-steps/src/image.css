@@ -1,13 +1,13 @@
 
 
 .full-image {
-	width: 100%;
+	width: 100vw;
 	height: auto;
 	padding: 0;
 }
 
 .half-image {
-	width: 50%;
+	width: 50vw;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -15,12 +15,12 @@
 }
 
 .quarter-image {
-	width: 25%;
+	width: 25vw;
 	height: auto;	
 }
 
 .avatar {
-	width: 15%;
+	width: 22%;
 	border-radius: 50%;
 	background-color: blue;
 }
