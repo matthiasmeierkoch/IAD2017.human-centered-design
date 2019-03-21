@@ -39,6 +39,11 @@ p {
 li {
   margin: 0.75rem 0;
 }
+
+ul {
+  padding-left: 20px;
+}
+
 .navigation {
   font-family: 'Space Mono', sans-serif;
   font-weight: Bold;
