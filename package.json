@@ -6,10 +6,9 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "md": "showdown makehtml -i ./text/loos.md -o ./text/loos.html && showdown makehtml -i ./text/structure.md -o ./text/structure.html --tables",
-    "start": "webpack-dev-server",
-    "test": "npm run-script build"
+    "start": "webpack-dev-server"
   },
-  "author": "Stefan Huber (Signalwerk GmbH)",
+  "author": "Stefan Huber (Signalwekr GmbH)",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
