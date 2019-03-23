@@ -1,6 +1,6 @@
 # installation
 ```sh
-$ npm intstall
+$ npm install
 
 $ npm start
 
