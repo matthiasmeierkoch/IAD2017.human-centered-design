@@ -1,8 +1,15 @@
 # installation
+
+just once:
 ```sh
-$ npm intstall
-
+$ npm intstall 
+```
+every time you wanna start the dev enviroment:
+```sh
 $ npm start
+```
 
-$ npm build
+to build the final «dist» folder:
+```sh
+$ npm build ()
 ```
