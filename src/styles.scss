@@ -9,9 +9,20 @@
 @import "./scss/typography";
 
 // media queries
-@media only screen and (min-width: 768px) { /* oder rem/em */
+@media only screen and (max-width: 768px) { /* oder rem/em */
 	html {
 		font-size: 18px;
+		.menu{
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) { /* oder rem/em */
+	html {
+		.menu{
+			display: none;
+		}
 	}
 }
 
@@ -137,7 +148,7 @@ $col-1of8: (100 - ((8 - 1) * $gutter)) / 8;
 }
 
 .container {
-	max-width: 40rem;
+	max-width: 35rem;
 	margin: 0 auto;
 	padding: 0 2.5%;
 }

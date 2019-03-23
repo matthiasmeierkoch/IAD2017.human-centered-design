@@ -4,9 +4,9 @@
   "description": "type-system starter using webpack",
   "main": "dist/index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
+    "build": "NODE_ENV=production cp -r ./src/images ./dist/ && webpack",
     "md": "showdown makehtml -i ./text/loos.md -o ./text/loos.html && showdown makehtml -i ./text/structure.md -o ./text/structure.html --tables",
-    "start": "webpack-dev-server"
+    "start": "cp -r ./src/images ./dist/ && webpack-dev-server"
   },
   "author": "Stefan Huber (Signalwekr GmbH)",
   "license": "MIT",
