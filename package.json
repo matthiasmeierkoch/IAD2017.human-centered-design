@@ -9,7 +9,7 @@
     "start": "webpack-dev-server",
     "test": "npm run-script build"
   },
-  "author": "Stefan Huber (Signalwekr GmbH)",
+  "author": "Stefan Huber (Signalwerk GmbH)",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
