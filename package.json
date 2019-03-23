@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production webpack",
     "md": "showdown makehtml -i ./text/loos.md -o ./text/loos.html && showdown makehtml -i ./text/structure.md -o ./text/structure.html --tables",
     "start": "webpack-dev-server",
-    "test": "npm build"
+    "test": "npm run-script build"
   },
   "author": "Stefan Huber (Signalwekr GmbH)",
   "license": "MIT",

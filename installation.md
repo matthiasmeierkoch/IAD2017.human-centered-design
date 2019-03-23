@@ -11,5 +11,5 @@ $ npm start
 
 to build the final «dist» folder:
 ```sh
-$ npm build ()
+$ npm build
 ```
